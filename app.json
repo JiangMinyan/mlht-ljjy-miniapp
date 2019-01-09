@@ -1,0 +1,40 @@
+{
+        "pages": [
+                "pages/home/home",
+                "pages/exchange/exchange",
+                "pages/myself/myself"
+        ],
+        "window": {
+                "backgroundTextStyle": "dark",
+                "navigationBarBackgroundColor": "#000000",
+                "navigationBarTextStyle": "white",
+                "navigationBarTitleText": "龙江家园",
+                "navigationStyle": "custom"
+        },
+        "tabBar": {
+                "color": "#aaaaaa",
+                "selectedColor": "#0081ff",
+                "borderStyle": "black",
+                "backgroundColor": "#ffffff",
+                "list": [
+                        {
+                                "pagePath": "pages/home/home",
+                                "iconPath": "/images/tabbar/home.png",
+                                "selectedIconPath": "/images/tabbar/home_cur.png",
+                                "text": "首页"
+                        },
+                        {
+                                "pagePath": "pages/exchange/exchange",
+                                "iconPath": "/images/tabbar/exchange.png",
+                                "selectedIconPath": "/images/tabbar/exchange_cur.png",
+                                "text": "兑换"
+                        },
+                        {
+                                "pagePath": "pages/myself/myself",
+                                "iconPath": "/images/tabbar/myself.png",
+                                "selectedIconPath": "/images/tabbar/myself_cur.png",
+                                "text": "我的"
+                        }
+                ]
+        }
+}

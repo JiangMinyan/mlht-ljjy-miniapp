@@ -1,0 +1,21 @@
+<custom style="height:{{CustomBar}}px;">
+  <bar class="fixed gradual-blue" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+    <view class='content'>我的</view>
+  </bar>
+</custom>
+<view class="page">
+  <list class="menu menu-avatar">
+    <item class="arrow">
+      <avatar class="round lg" style="background-image:url({{unloginImage}});">
+        <!-- <tag class="badge">99+</tag> -->
+      </avatar>
+      <view class='content'>
+        <view class='text-grey'>
+            登录/注册
+          <!--<tag class="round bg-orange sm">SVIP</tag>-->
+        </view>
+        <view class='text-gray text-sm'>登录以体验更好的服务</view>
+      </view>
+    </item>
+  </list>
+</view>

@@ -1,0 +1,10 @@
+<custom style="height:{{CustomBar}}px;">
+  <bar class="fixed gradual-blue" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+    <view class='content'>兑换</view>
+  </bar>
+</custom>
+<view class="margin-xl padding-xl bg-white radius shadow-lg">
+  <view class="flex justify-center">
+    <button bindtap='wxScanCode' class='round bg-green shadow'> 扫码</button>
+  </view>
+</view>

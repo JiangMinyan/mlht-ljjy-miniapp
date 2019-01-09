@@ -1,0 +1,132 @@
+<custom style="height:{{CustomBar}}px;">
+  <bar class="fixed gradual-blue" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+    <view class='content'>首页</view>
+  </bar>
+</custom>
+<bar class="search fixed" style="top:{{CustomBar}}px;">
+  <view class='search-form round'>
+    <text class="icon-search"></text>
+    <input type="text" placeholder="输入搜索的关键词" confirm-type="search"></input>
+  </view>
+  <view class='action'>
+    <button bindtap='searchHome' class='gradual-blue shadow-blur round'>搜索</button>
+  </view>
+</bar>
+<list class="menu menu-avatar no-padding" style="position:relative;top:100rpx;">
+    <item class="arrow">
+      <avatar class="radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></avatar>
+      <view class='content'>
+        <view>喵星人互动群</view>
+        <view class='text-gray text-sm'>
+          喵星酱：喵喵喵！</view>
+      </view>
+    </item>
+    <item class="arrow">
+      <avatar class="radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></avatar>
+      <view class='content'>
+        <view>喵星人互动群</view>
+        <view class='text-gray text-sm'>
+          喵星酱：喵喵喵！</view>
+      </view>
+    </item>
+    <item class="arrow">
+      <avatar class="radius lg" style="background-image:url(https://image.weilanwl.com/img/square-4.jpg);">
+        <tag class="badge">11</tag>
+      </avatar>
+      <view class='content'>
+        <view>喵星人互动群
+          <tag class="round bg-orange sm">6人</tag>
+        </view>
+        <view class='text-gray text-sm'>
+          喵星酱：
+          <text class='icon-picfill text-orange'></text> 图片传输中...</view>
+      </view>
+    </item>
+    <item class="arrow">
+      <avatar class="radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></avatar>
+      <view class='content'>
+        <view>喵星人互动群</view>
+        <view class='text-gray text-sm'>
+          喵星酱：喵喵喵！</view>
+      </view>
+    </item>
+    <item class="arrow">
+      <avatar class="radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></avatar>
+      <view class='content'>
+        <view>喵星人互动群</view>
+        <view class='text-gray text-sm'>
+          喵星酱：喵喵喵！</view>
+      </view>
+    </item>
+    <item class="arrow">
+      <avatar class="radius lg" style="background-image:url(https://image.weilanwl.com/img/square-4.jpg);">
+        <tag class="badge">11</tag>
+      </avatar>
+      <view class='content'>
+        <view>喵星人互动群
+          <tag class="round bg-orange sm">6人</tag>
+        </view>
+        <view class='text-gray text-sm'>
+          喵星酱：
+          <text class='icon-picfill text-orange'></text> 图片传输中...</view>
+      </view>
+    </item>
+    <item class="arrow">
+      <avatar class="radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></avatar>
+      <view class='content'>
+        <view>喵星人互动群</view>
+        <view class='text-gray text-sm'>
+          喵星酱：喵喵喵！</view>
+      </view>
+    </item>
+    <item class="arrow">
+      <avatar class="radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></avatar>
+      <view class='content'>
+        <view>喵星人互动群</view>
+        <view class='text-gray text-sm'>
+          喵星酱：喵喵喵！</view>
+      </view>
+    </item>
+    <item class="arrow">
+      <avatar class="radius lg" style="background-image:url(https://image.weilanwl.com/img/square-4.jpg);">
+        <tag class="badge">11</tag>
+      </avatar>
+      <view class='content'>
+        <view>喵星人互动群
+          <tag class="round bg-orange sm">6人</tag>
+        </view>
+        <view class='text-gray text-sm'>
+          喵星酱：
+          <text class='icon-picfill text-orange'></text> 图片传输中...</view>
+      </view>
+    </item>
+    <item class="arrow">
+      <avatar class="radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></avatar>
+      <view class='content'>
+        <view>喵星人互动群</view>
+        <view class='text-gray text-sm'>
+          喵星酱：喵喵喵！</view>
+      </view>
+    </item>
+    <item class="arrow">
+      <avatar class="radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></avatar>
+      <view class='content'>
+        <view>喵星人互动群</view>
+        <view class='text-gray text-sm'>
+          喵星酱：喵喵喵！</view>
+      </view>
+    </item>
+    <item class="arrow">
+      <avatar class="radius lg" style="background-image:url(https://image.weilanwl.com/img/square-4.jpg);">
+        <tag class="badge">11</tag>
+      </avatar>
+      <view class='content'>
+        <view>喵星人互动群
+          <tag class="round bg-orange sm">6人</tag>
+        </view>
+        <view class='text-gray text-sm'>
+          喵星酱：
+          <text class='icon-picfill text-orange'></text> 图片传输中...</view>
+      </view>
+    </item>
+  </list>

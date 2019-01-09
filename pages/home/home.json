@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "首页",
+    "usingComponents": {
+        "van-button": "/vantcomponents/button/index",
+        "van-search": "/vantcomponents/search/index"
+    }
+}
